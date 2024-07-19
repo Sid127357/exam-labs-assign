@@ -1,12 +1,12 @@
-import Header from './components/Header'
 import 'bootstrap/dist/css/bootstrap.css';
 import './style.css'
 import Checkout from './pages/Checkout';
+import Header from './common/Header';
 function App() {
 
   return (
     <>
-      <Header/>
+    <Header/>
       <div className="site_container">
         <Checkout/>
       </div>

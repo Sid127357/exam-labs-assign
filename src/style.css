@@ -1,5 +1,39 @@
+/* default Classes */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6,p,ul,ol{margin: 0;padding: 0;}
+.gray{color:#7a8ea5}
+.primary-clr{color:#102f50}
+.green-light{background-color: #f5fffa;}
+.green-text-clr{color:#0fc962}
 /* Header section */
 .header-block{background-color: #f7f7f9;border-bottom:1px solid #99a0b659}
-.header-block img{width:120px}
+.header-block img{width:140px}
 
-/*  */
+/* Bread Crumb  */
+.breadcrumb-block .breadcrumb-item{ font-size:12px}
+
+/* Counter Banner  */
+.counter-block .counter-row{background:linear-gradient(to right, #ffba00, #ff8900) ;border-radius: 50px;}
+.counter-block .clock-image{position: absolute;left: -10px;top: -10px;}
+.counter-block .clock-image img{width:50px}
+
+/* Side bar Items */
+.sidebar-block p{font-size: 12px;}
+.guarntee-card{ border: 1px solid #0fc962;}
+.guarntee-card img{width:40px}
+.guarntee-card h3{font-size: 12px;}
+.why-choose-block{border:1px solid #ddd;padding:30px;}
+.why-choose-block h3{font-size: 14px;}
+.why-choose-block ul{list-style: none;font-size: 12px;}
+.help-sec{background-color: #ffecca56;border:1px solid #ffd57c; padding: 30px; text-align: center;}
+.help-sec a{font-size: 13px;}
+
+/* Media query for mobile screen */
+@media screen and (min-width:320px) and (max-width:768px){
+    .counter-block{text-align: center;}
+    .counter-block .counter-row{background:linear-gradient(#ffecca, #ffecca);border-radius: 5px;border: 1px solid #ffd57c;}
+    .counter-block .clock-image{left:15%;top: 10px ;}
+    .counter-block .clock-image img{width:30px}
+    .counter-block .coupon-code{background: #ffd57c;padding: 3px;margin: -25px;margin-top: 5px;margin-bottom: 0px;}
+
+}
